@@ -1,2 +1,5 @@
 # binary
 pokedexcli
+
+# logs
+*.log 

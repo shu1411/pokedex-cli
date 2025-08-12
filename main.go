@@ -1,9 +1,12 @@
 package main
 
-import (
-	"fmt"
-)
+type cliCommand struct {
+	name        string
+	description string
+	callback    func() error
+}
 
 func main() {
-	fmt.Println("Hello, World!")
+	repl()
 }
+
